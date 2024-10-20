@@ -12,6 +12,7 @@ window.onload = function () {
 
     }
 
+    console.log("Datos ordenados por FECHA CONSECUCIÓN DESCENDENTE")
     console.table(reconocimientosAlumno.reconocimientos.toSorted(ordenarFecha));
 
 
